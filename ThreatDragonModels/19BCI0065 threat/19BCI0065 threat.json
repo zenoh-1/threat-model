@@ -32,8 +32,9 @@
                 {
                   "status": "Open",
                   "severity": "Medium",
-                  "type": "Spoofing",
-                  "title": "spoofin"
+                  "type": "Tampering",
+                  "title": "generic tampering threat",
+                  "description": "generic tampering threat"
                 }
               ],
               "attrs": {
@@ -56,7 +57,7 @@
               },
               "position": {
                 "x": 354,
-                "y": 102
+                "y": 103
               },
               "angle": 0,
               "id": "ce422b9b-5ae3-4e65-879e-5ccff768f0fa",
@@ -67,7 +68,15 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Tampering",
-                  "title": "tampering"
+                  "title": "generic tampering threat",
+                  "description": "Generic tampering threat"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "title": "generic spoofing threat",
+                  "description": "spoofing threat"
                 }
               ],
               "attrs": {
@@ -95,16 +104,25 @@
               "angle": 0,
               "id": "eac9df87-37ec-4e7f-9613-a76b0224bb6f",
               "z": 3,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "title": "generic spoofing threat",
+                  "description": "generic spoofing threat"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Message Queue"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -121,16 +139,25 @@
               "angle": 0,
               "id": "e528ec6f-8dba-4006-bd18-faa8658ea838",
               "z": 4,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "generic spoofing threat",
+                  "type": "Spoofing",
+                  "description": "generic spoofing threat"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "background\nworker"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -147,16 +174,32 @@
               "angle": 0,
               "id": "85df07a9-66cc-4260-80e4-90d383078eb6",
               "z": 5,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "generic spoofing threat",
+                  "type": "Spoofing",
+                  "description": "generic spoofing threat"
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "title": "generic tampering threat",
+                  "description": "generic Tampering threat"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Database"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -217,6 +260,10 @@
                 {
                   "x": 324,
                   "y": 74
+                },
+                {
+                  "x": 268,
+                  "y": 127
                 }
               ],
               "id": "f95fc474-2ea9-4132-b116-e084c8490ec2",
